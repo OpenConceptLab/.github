@@ -7,7 +7,7 @@
         "email": "grants@openconceptlab.org",
         "description": "Open Concept Lab is a limited liability corporation whose mission is to create a global, open-source, collaborative platform for creating and accessing standardized healthcare terminology. OCL is a recognized Digital Public Good that is used by Ministries of Health, NGOs, and other organizations, especially among low and middle income countries, to manage healthcare terminologies and to support health information exchange. OCL supports FHIR R4B. OCL is free to download and use, and also offers a hosted solution called OCL Online, that is preloaded with terminologies that are important to resource constrained environments, such as LOINC, SNOMED GPS, ICD-10, and the Columbia International eHealth Laboratory. OCL Online is used to manage metadata that is deployed in thousands of health care facilities throughout Africa, and is the software that powers national terminology service deployments in several countries including Kenya, Sri Lanka, and Brazil. OCL supports a global community of practice of terminologists, academics, engineers, and public health practitioners.",
         "webpageUrl": {
-            "url": "https://openconceptlab.org/about",
+            "url": "https://openconceptlab.org/about"
         }
     },
     "projects": [
@@ -16,12 +16,14 @@
             "name": "OCL Terminology Server",
             "description": "The OCL Terminology Server exposes data standards and health terminologies to a health information exchange. It is a foundational component that enables data interoperability. It provides operations to manage and use terminology, and is FHIR R4B compatible. The OCL Terminology Server is open-source and free to use, and it is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
             "webpageUrl": {
-                "url": "https://openconceptlab.org/terminology-service/",
+                "url": "https://openconceptlab.org/terminology-service/"
             },
             "repositoryUrl": {
                 "url": "https://github.com/OpenConceptLab/oclapi"
             },
-            "licenses": ["spdx:MPL-2.0"],
+            "licenses": [
+                "spdx:MPL-2.0"
+            ],
             "tags": [
                 "health",
                 "medical",
@@ -40,13 +42,14 @@
             "name": "OCL TermBrowser v3",
             "description": "OCL TermBrowser v3 (TB3) is a web-based application that allows users to browse, search, and manage healthcare terminologies. TB3 is the web client for the OCL Terminology Server. TB3 helps users to manage and deploy health terminologies in their projects. TB3 is open-source and free to use. TB3 is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
             "webpageUrl": {
-                "url": "https://openconceptlab.org/termbrowser/",
-                "wellKnown": "https://openconceptlab.org/ocl-term-browser/.well-known/funding-manifest-urls"
+                "url": "https://openconceptlab.org/termbrowser/"
             },
             "repositoryUrl": {
                 "url": "https://github.com/OpenConceptLab/oclweb3"
             },
-            "licenses": ["spdx:MPL-2.0"],
+            "licenses": [
+                "spdx:MPL-2.0"
+            ],
             "tags": [
                 "health",
                 "medical",
@@ -65,12 +68,14 @@
             "name": "OCL Mapper",
             "description": "OCL Mapper [beta] is a web-based application that uses AI to help users to quickly map their content to standard terminologies or to any target data dictionary. Terminology mapping is a critical step in standardizing data collection and reporting that is very time consuming, even with the right tools and expertise. There is a massive global need for terminology mapping as low and middle income countries are quickly implementing health information exchanges and leveraging analytics and business intelligence tools that look at heterogenous health data. OCL Mapper is free to download and use and is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
             "webpageUrl": {
-                "url": "https://openconceptlab.org/ocl-mapper/",
+                "url": "https://openconceptlab.org/ocl-mapper/"
             },
             "repositoryUrl": {
                 "url": "https://github.com/OpenConceptLab/oclweb3"
             },
-            "licenses": ["spdx:MPL-2.0"],
+            "licenses": [
+                "spdx:MPL-2.0"
+            ],
             "tags": [
                 "health",
                 "medical",
@@ -103,7 +108,9 @@
                 "amount": 50000,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["ocl-bank"]
+                "channels": [
+                    "ocl-bank"
+                ]
             },
             {
                 "guid": "global-support-team-plan",
@@ -113,7 +120,9 @@
                 "amount": 50000,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["ocl-bank"]
+                "channels": [
+                    "ocl-bank"
+                ]
             },
             {
                 "guid": "fellowship-plan",
@@ -123,7 +132,9 @@
                 "amount": 10000,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["ocl-bank"]
+                "channels": [
+                    "ocl-bank"
+                ]
             },
             {
                 "guid": "travel-scholarship-plan",
@@ -133,7 +144,9 @@
                 "amount": 5000,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["ocl-bank"]
+                "channels": [
+                    "ocl-bank"
+                ]
             }
         ]
     }
