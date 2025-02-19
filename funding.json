@@ -1,0 +1,140 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "organisation",
+        "role": "owner",
+        "name": "Open Concept Lab",
+        "email": "grants@openconceptlab.org",
+        "description": "Open Concept Lab is a limited liability corporation whose mission is to create a global, open-source, collaborative platform for creating and accessing standardized healthcare terminology. OCL is a recognized Digital Public Good that is used by Ministries of Health, NGOs, and other organizations, especially among low and middle income countries, to manage healthcare terminologies and to support health information exchange. OCL supports FHIR R4B. OCL is free to download and use, and also offers a hosted solution called OCL Online, that is preloaded with terminologies that are important to resource constrained environments, such as LOINC, SNOMED GPS, ICD-10, and the Columbia International eHealth Laboratory. OCL Online is used to manage metadata that is deployed in thousands of health care facilities throughout Africa, and is the software that powers national terminology service deployments in several countries including Kenya, Sri Lanka, and Brazil. OCL supports a global community of practice of terminologists, academics, engineers, and public health practitioners.",
+        "webpageUrl": {
+            "url": "https://openconceptlab.org/about",
+        }
+    },
+    "projects": [
+        {
+            "guid": "oclapi",
+            "name": "OCL Terminology Server",
+            "description": "The OCL Terminology Server exposes data standards and health terminologies to a health information exchange. It is a foundational component that enables data interoperability. It provides operations to manage and use terminology, and is FHIR R4B compatible. The OCL Terminology Server is open-source and free to use, and it is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
+            "webpageUrl": {
+                "url": "https://openconceptlab.org/terminology-service/",
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/OpenConceptLab/oclapi"
+            },
+            "licenses": ["spdx:MPL-2.0"],
+            "tags": [
+                "health",
+                "medical",
+                "healthcare",
+                "digital-health",
+                "public-health",
+                "digital-public-infrastructure",
+                "data-standards",
+                "terminology-service",
+                "health-information-exchange",
+                "fhir"
+            ]
+        },
+        {
+            "guid": "oclweb3",
+            "name": "OCL TermBrowser v3",
+            "description": "OCL TermBrowser v3 (TB3) is a web-based application that allows users to browse, search, and manage healthcare terminologies. TB3 is the web client for the OCL Terminology Server. TB3 helps users to manage and deploy health terminologies in their projects. TB3 is open-source and free to use. TB3 is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
+            "webpageUrl": {
+                "url": "https://openconceptlab.org/termbrowser/",
+                "wellKnown": "https://openconceptlab.org/ocl-term-browser/.well-known/funding-manifest-urls"
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/OpenConceptLab/oclweb3"
+            },
+            "licenses": ["spdx:MPL-2.0"],
+            "tags": [
+                "health",
+                "medical",
+                "healthcare",
+                "digital-health",
+                "public-health",
+                "digital-public-infrastructure",
+                "data-standards",
+                "terminology-service",
+                "health-information-exchange",
+                "fhir"
+            ]
+        },
+        {
+            "guid": "oclmap",
+            "name": "OCL Mapper",
+            "description": "OCL Mapper [beta] is a web-based application that uses AI to help users to quickly map their content to standard terminologies or to any target data dictionary. Terminology mapping is a critical step in standardizing data collection and reporting that is very time consuming, even with the right tools and expertise. There is a massive global need for terminology mapping as low and middle income countries are quickly implementing health information exchanges and leveraging analytics and business intelligence tools that look at heterogenous health data. OCL Mapper is free to download and use and is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
+            "webpageUrl": {
+                "url": "https://openconceptlab.org/ocl-mapper/",
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/OpenConceptLab/oclweb3"
+            },
+            "licenses": ["spdx:MPL-2.0"],
+            "tags": [
+                "health",
+                "medical",
+                "healthcare",
+                "digital-health",
+                "public-health",
+                "digital-public-infrastructure",
+                "data-standards",
+                "terminology-service",
+                "health-information-exchange",
+                "fhir",
+                "terminology-mapping"
+            ]
+        }
+    ],
+    "funding": {
+        "channels": [
+            {
+                "guid": "ocl-bank",
+                "type": "bank",
+                "description": "Please contact us for bank details at grants@openconceptlab.org"
+            }
+        ],
+        "plans": [
+            {
+                "guid": "ai-mapping-agent",
+                "status": "active",
+                "name": "AI Terminology mapping agent",
+                "description": "The OCL Mapper [beta] is supported by a semantic search vector-based matching algorithm that generates candidates for mapping content. This approach significantly improves the quality of mapping candidates, but it does not take previous mapping decisions into account to inform candidate generation. An \"AI Terminology Mapping Agent\" would transform this into a learning system, that makes mapping recommendations to users and that gets better over time. Terminologists are expensive and rare, especially in the resource-constrained settings where we are focused, so tools that reduce the level of effort required of a senior terminologist are critical. This AI agent would allow a users in a rural setting in a low-income country to benefit from the mapping decisions that other community have made.",
+                "amount": 50000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["ocl-bank"]
+            },
+            {
+                "guid": "global-support-team-plan",
+                "status": "active",
+                "name": "Global Support Team plan",
+                "description": "Our small OCL Core Team plays a vital role in coordinating and strengthening our global network. We coordinate community management, event planning, and communications; mentor developers and lead complex code reviews; maintain critical infrastructure; and support implementers and users. We lead critical software development activities that drive community contributors.",
+                "amount": 50000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["ocl-bank"]
+            },
+            {
+                "guid": "fellowship-plan",
+                "status": "active",
+                "name": "Fellowship plan",
+                "description": "Fellowships enhance our community's capacity by supporting promising contributors in developing their skills, while also providing a funded stipend. We pair fellows with a Mentor and an active workgroup. Fellowships are ~3-9 months long. Many are then recruited by Community Organizations, and become ongoing contributors embedded in their home organization. Fellowship costs vary, but $10,000 USD covers a 6-month junior fellowship. Note that OCL uses the OpenMRS fellowship pay scale, which can be found here: om.rs/fellowships",
+                "amount": 10000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["ocl-bank"]
+            },
+            {
+                "guid": "travel-scholarship-plan",
+                "status": "active",
+                "name": "Travel Scholarship plan",
+                "description": "Many of our top contributors need financial assistance to attend OCL community events. For example, OCL hosts an in-person workshop every year colocated with the annual OpenHIE Conference, which will be hosted in Rwanda in 2025. One of the ways that OCL supports our open source community is by sponsoring contributors with travel grants to attend events such as this. This sponsored travel helps those that would like to attend events but are unable to do so for financial reasons.",
+                "amount": 5000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["ocl-bank"]
+            }
+        ]
+    }
+}
