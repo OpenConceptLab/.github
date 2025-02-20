@@ -23,7 +23,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/OpenConceptLab/oclapi2",
-        "wellKnown": "https://github.com/OpenConceptLab/oclapi2/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/OpenConceptLab/oclapi2/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MPL-2.0"
