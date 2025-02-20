@@ -14,16 +14,16 @@
   },
   "projects": [
     {
-      "guid": "oclapi",
-      "name": "OCL Terminology Server",
+      "guid": "oclapi2",
+      "name": "OCL Terminology Server v2",
       "description": "The OCL Terminology Server exposes data standards and health terminologies to a health information exchange. It is a foundational component that enables data interoperability. It provides operations to manage and use terminology, and is FHIR R4B compatible. The OCL Terminology Server is open-source and free to use, and it is also available in OCL Online pre-loaded with important terminologies for resource constrained environments.",
       "webpageUrl": {
         "url": "https://openconceptlab.org/",
         "wellKnown": "https://openconceptlab.org/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/OpenConceptLab/oclapi",
-        "wellKnown": "https://github.com/OpenConceptLab/oclapi/.well-known/funding-manifest-urls"
+        "url": "https://github.com/OpenConceptLab/oclapi2",
+        "wellKnown": "https://github.com/OpenConceptLab/oclapi2/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MPL-2.0"
@@ -51,7 +51,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/OpenConceptLab/oclweb3",
-        "wellKnown": "https://github.com/OpenConceptLab/oclweb3/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/OpenConceptLab/oclweb3/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MPL-2.0"
@@ -79,7 +79,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/OpenConceptLab/oclmap",
-        "wellKnown": "https://github.com/OpenConceptLab/oclmap/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/OpenConceptLab/oclmap/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MPL-2.0"
