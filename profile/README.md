@@ -2,9 +2,9 @@
 
 <a link="https://openconceptlab.org">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/OpenConceptLab/.github/assets/FullLogo-BlackText.png">
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/OpenConceptLab/.github/assets/FullLogo-WhiteText.png">
-    <img alt="OpenMRS" src="https://github.com/OpenConceptLab/.github/assets/FullLogo-BlackText.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/OpenConceptLab/.github/blob/main/assets/FullLogo-BlackText.png">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/OpenConceptLab/.github/blob/main/assets/FullLogo-WhiteText.png">
+    <img alt="OpenMRS" src="https://github.com/OpenConceptLab/.github/blob/main/assets/FullLogo-BlackText.png">
   </picture>
 </a>
 
