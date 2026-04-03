@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest new or improved functionality
+labels: ["type/feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please describe what you'd like.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the feature or improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this needed? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Solution
+      description: If you have ideas on how this could be implemented, describe them here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of OCL would this affect?
+      options:
+        - API (oclapi2)
+        - TermBrowser (oclweb3)
+        - FHIR
+        - Mapper (oclmap)
+        - Documentation
+        - Infrastructure
+        - OpenMRS integration
+        - OCL Online
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Mockups, references, related issues, etc.
+    validations:
+      required: false

@@ -1,0 +1,149 @@
+# OCL Label Taxonomy — Phase 1 (33 labels)
+# Canonical definitions for all repos in the OpenConceptLab org.
+# Provisioned via provision-labels.sh. Do not edit labels manually on repos.
+#
+# Color scheme: one hue per scope for instant visual grouping.
+#   type/       — blue family
+#   priority/   — red→orange→yellow→cream gradient (urgency = warmth)
+#   component/  — green
+#   signal/     — olive-yellow (system-managed, distinct from priority)
+#   origin/     — neutral gray
+#   stage/      — light blue
+
+# ─── type/ (blue family) ────────────────────────────────────────────
+- name: "type/bug"
+  color: "1d76db"
+  description: "Something is broken"
+
+- name: "type/feature"
+  color: "0969da"
+  description: "New or improved functionality"
+
+- name: "type/docs"
+  color: "4a9ade"
+  description: "Documentation"
+
+- name: "type/infra"
+  color: "2b67c6"
+  description: "CI/CD, deployment, infrastructure"
+
+- name: "type/refactor"
+  color: "79b8ff"
+  description: "Code restructuring, no behavior change"
+
+- name: "type/dependency"
+  color: "bfd4f2"
+  description: "Version bumps, package updates"
+
+# ─── priority/ (red-orange hue) ─────────────────────────────────────
+- name: "priority/critical"
+  color: "b60205"
+  description: "Blocking production or other work"
+
+- name: "priority/high"
+  color: "d93f0b"
+  description: "Should be addressed soon"
+
+- name: "priority/medium"
+  color: "fbca04"
+  description: "Important but not urgent"
+
+- name: "priority/low"
+  color: "fef2c0"
+  description: "Nice to have"
+
+# ─── origin/ (gray) ─────────────────────────────────────────────────
+- name: "origin/ai-generated"
+  color: "ededed"
+  description: "Issue or PR created by an AI agent"
+
+# ─── stage/ (light blue) ────────────────────────────────────────────
+- name: "stage/triaged"
+  color: "c5def5"
+  description: "AI triage complete — scored and classified"
+
+# ─── component/ (green) ─────────────────────────────────────────────
+- name: "component/api"
+  color: "0e8a16"
+  description: "Core terminology service API"
+
+- name: "component/web"
+  color: "0e8a16"
+  description: "TermBrowser frontend"
+
+- name: "component/fhir"
+  color: "0e8a16"
+  description: "FHIR terminology facade"
+
+- name: "component/mapper"
+  color: "0e8a16"
+  description: "Mapping tools"
+
+- name: "component/docs"
+  color: "0e8a16"
+  description: "Community documentation"
+
+- name: "component/infra"
+  color: "0e8a16"
+  description: "DevOps, CI/CD, infrastructure"
+
+- name: "component/content"
+  color: "0e8a16"
+  description: "Terminology content and datasets"
+
+- name: "component/omrs"
+  color: "0e8a16"
+  description: "OpenMRS integration"
+
+- name: "component/online"
+  color: "0e8a16"
+  description: "OCL Online platform"
+
+- name: "component/analytics"
+  color: "0e8a16"
+  description: "Analytics services"
+
+- name: "component/ai"
+  color: "0e8a16"
+  description: "AI services"
+
+- name: "component/mcp"
+  color: "0e8a16"
+  description: "MCP servers and clients"
+
+# ─── signal/ (olive-yellow) ─────────────────────────────────────────
+- name: "signal/quick-win"
+  color: "e4e669"
+  description: "Low complexity, high clarity — easy win"
+
+- name: "signal/low-risk"
+  color: "e4e669"
+  description: "Safe to execute with minimal downside"
+
+- name: "signal/high-risk"
+  color: "e4e669"
+  description: "Significant potential impact if incorrect"
+
+- name: "signal/small-scope"
+  color: "e4e669"
+  description: "Limited to a small part of the codebase"
+
+- name: "signal/large-scope"
+  color: "e4e669"
+  description: "Affects multiple areas or systems"
+
+- name: "signal/well-specified"
+  color: "e4e669"
+  description: "Clear requirements and acceptance criteria"
+
+- name: "signal/needs-spec"
+  color: "e4e669"
+  description: "Missing detail or ambiguous requirements"
+
+- name: "signal/has-dependencies"
+  color: "e4e669"
+  description: "Relies on other work or external inputs"
+
+- name: "signal/previously-attempted"
+  color: "e4e669"
+  description: "A prior AI attempt was rejected — adjust strategy"
