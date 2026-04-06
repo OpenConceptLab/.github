@@ -16,11 +16,11 @@ Add a `type/` label when you create an issue: `type/bug`, `type/feature`, `type/
 
 ## Commits
 
-Reference the issue number in your commits:
+Reference the issue number in your commits (and use [conventional comments](https://www.conventionalcommits.org/en/v1.0.0/#summary) descriptions whenever is possible):
 
 ```
-Fix cascade hierarchy view (#2301)
-Add swagger docs (closes OpenConceptLab/ocl_issues#2272)
+fix: cascade hierarchy view (#2301)
+docs: add swagger /docs page (closes OpenConceptLab/ocl_issues#2272)
 ```
 
 Use `closes #N` or `fixes #N` on the resolving commit. Use bare `#N` for partial work. Typo fixes are exempt.
