@@ -113,7 +113,7 @@
 
 - name: "component/community-site"
   color: "0e8a16"
-  description: "OCL community website"
+  description: "OCL Community Site (website)"
 
 # ─── signal/ (olive-yellow) ─────────────────────────────────────────
 - name: "signal/quick-win"
