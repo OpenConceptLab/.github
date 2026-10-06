@@ -1,4 +1,4 @@
-# OCL Label Taxonomy — Phase 1 (33 labels)
+# OCL Label Taxonomy — Phase 1 (34 labels)
 # Canonical definitions for all repos in the OpenConceptLab org.
 # Provisioned via provision-labels.sh. Do not edit labels manually on repos.
 #
@@ -110,6 +110,10 @@
 - name: "component/mcp"
   color: "0e8a16"
   description: "MCP servers and clients"
+
+- name: "component/community-site"
+  color: "0e8a16"
+  description: "OCL community website"
 
 # ─── signal/ (olive-yellow) ─────────────────────────────────────────
 - name: "signal/quick-win"
