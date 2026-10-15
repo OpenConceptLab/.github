@@ -16,14 +16,16 @@ Add a `type/` label when you create an issue: `type/bug`, `type/feature`, `type/
 
 ## Commits
 
-Reference the issue number in your commits (and use [conventional comments](https://www.conventionalcommits.org/en/v1.0.0/#summary) descriptions whenever is possible):
+Reference the issue in your commits, and use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) where you can:
 
 ```
-fix: cascade hierarchy view (#2301)
+fix: cascade hierarchy view (OpenConceptLab/ocl_issues#2301)
 docs: add swagger /docs page (closes OpenConceptLab/ocl_issues#2272)
 ```
 
-Use `closes #N` or `fixes #N` on the resolving commit. Use bare `#N` for partial work. Typo fixes are exempt.
+Use `closes` or `fixes` on the resolving commit, and the reference alone for partial work. Always write the full `OpenConceptLab/ocl_issues#N`: a bare `#N` points at the repo the commit lands in. Typo fixes don't need an issue.
+
+Commit as yourself, with an email linked to your GitHub account, so the work counts as yours. If an AI agent writes the code, credit it with a `Co-authored-by:` line instead of committing from its account.
 
 ## Pull Requests
 
@@ -40,6 +42,16 @@ Add a `type/` label to your PR. This drives release note generation.
 | Core logic, data models, auth | Another maintainer | Recommended |
 
 This isn't about gatekeeping — most PRs can be self-merged. The goal is visibility and an audit trail.
+
+## Contributing from outside the team
+
+You don't need to join the org to contribute.
+
+1. Comment on the `ocl_issues` issue you're taking on, or file one. Commenting also lets us assign the issue to you.
+2. Fork the repo, create a branch and open a PR from your fork against the default branch, linking the issue.
+3. A maintainer adds the labels, reviews and merges. CI on your first PR may wait for a maintainer to approve it.
+
+We assign each issue to whoever did the work, so the credit is on record. If you contribute regularly, we'll invite you to the `contributors` team.
 
 ## Labels
 
