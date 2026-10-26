@@ -29,7 +29,6 @@ Private repositories are not listed on this page. OCL shares their names and cat
 | [oclazure](https://github.com/OpenConceptLab/oclazure) | Terraform deployment of OCL on Azure | MPL 2.0 |
 | [oclci](https://github.com/OpenConceptLab/oclci) | CI and deployment scripts for OCL's hosted service | MPL 2.0 |
 
-
 ## Repositories outside the categories
 
 - **Public repositories that state no license.** They are public to read but not licensed for reuse. OCL may license any of them, which moves it into OCL Open Source.
