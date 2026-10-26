@@ -14,4 +14,4 @@ Welcome to the <abbr title="Open Concept Lab">OCL</abbr> GitHub! OCL is a global
 
 ## The OCL Digital Public Good
 
-OCL is a verified [digital public good](https://www.digitalpublicgoods.net/r/open-concept-lab). The [OCL DPG rule](https://github.com/OpenConceptLab/.github/blob/main/DIGITAL-PUBLIC-GOOD.md) names the repositories that make it up and says how that list changes. Their code is licensed under MPL 2.0 with the OCL Healthcare Disclaimer, and their documentation under CC BY 4.0. Every other OCL repository states its own license.
+OCL is a verified [digital public good](https://www.digitalpublicgoods.net/r/open-concept-lab). The [OCL DPG rule](https://github.com/OpenConceptLab/.github/blob/main/DIGITAL-PUBLIC-GOOD.md) names the repositories that make it up and says how that list changes. Their code is licensed under MPL 2.0 with the OCL Healthcare Disclaimer, and their documentation under CC BY 4.0. The [OCL repository categories](https://github.com/OpenConceptLab/.github/blob/main/REPOSITORIES.md) say how OCL's other repositories are organized and licensed.
