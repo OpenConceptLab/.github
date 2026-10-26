@@ -8,9 +8,9 @@ Open Concept Lab (OCL) sorts its repositories into four categories. This page de
 
 2. **OCL Open Source.** OCL's other public repositories that state an open-source or open content license. Each is licensed as it states. They are not part of the OCL DPG.
 
-3. **OCL Online Shared Services.** Private repositories and services that run or support OCL's free community services and the OCL DPG, such as community infrastructure and hosting, deployment and operations, the community website, and the OCL AI Assistant service.
+3. **OCL Online Shared Services.** Private repositories and services that run or support OCL's free community services and the OCL DPG, such as community infrastructure and hosting, deployment and operations, and the community website.
 
-4. **OCL Online Commercial Services.** Code and services that exist only to provide OCL Online's paid plans, such as plans and entitlements, plan allowances and limits, billing and payments, pricing, and upgrade prompts. This includes the OCL AI Assistant's plan allowances, limits and billing.
+4. **OCL Online Commercial Services.** Code and services that exist only to provide OCL Online's paid plans, such as plans and entitlements, plan allowances and limits, billing and payments, pricing, and upgrade prompts. This includes the plan gates that decide which paid plans may use an algorithm or service, and within what limits.
 
 The first three categories follow where a repository lives and how it is licensed. The fourth follows what code does: code that exists only to provide paid plans is in OCL Online Commercial Services wherever it sits.
 
