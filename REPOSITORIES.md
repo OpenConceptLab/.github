@@ -1,10 +1,10 @@
 # OCL repository categories
 
-Open Concept Lab (OCL) sorts its repositories into four categories. This page defines them and lists the public repositories in each. The first category, the OCL DPG, is governed by the [OCL Digital Public Good rule](DIGITAL-PUBLIC-GOOD.md).
+Open Concept Lab (OCL) sorts its repositories into four categories. This page defines them and lists the public repositories in each.
 
 ## The categories
 
-1. **OCL DPG.** The open OCL product: the repositories on the [OCL DPG list](DIGITAL-PUBLIC-GOOD.md#the-ocl-dpg-list). They are public. Their code is licensed under the Mozilla Public License 2.0 (MPL 2.0) with the OCL Healthcare Disclaimer, and their documentation under CC BY 4.0. The DPG rule says how the list changes.
+1. **OCL DPG.** The open OCL product: the repositories on the [OCL DPG list](DIGITAL-PUBLIC-GOOD.md#the-ocl-dpg-list). The [OCL Digital Public Good rule](DIGITAL-PUBLIC-GOOD.md) sets their licenses and how the list changes.
 
 2. **OCL Open Source.** OCL's other public repositories that state an open-source or open content license. Each is licensed as it states. They are not part of the OCL DPG.
 
@@ -12,7 +12,7 @@ Open Concept Lab (OCL) sorts its repositories into four categories. This page de
 
 4. **OCL Online Commercial Services.** Code and services that exist only to provide OCL Online's paid plans, such as plans and entitlements, plan allowances and limits, billing and payments, pricing, and upgrade prompts. This includes the OCL AI Assistant's plan allowances, limits and billing.
 
-The first three categories follow where a repository lives and how it is licensed. The fourth follows what code does: code that exists only to provide paid plans is in OCL Online Commercial Services wherever it sits, and the DPG rule lets OCL move it out of a DPG repository.
+The first three categories follow where a repository lives and how it is licensed. The fourth follows what code does: code that exists only to provide paid plans is in OCL Online Commercial Services wherever it sits.
 
 Private repositories are not listed on this page. OCL shares their names and categories with partners on request, in confidence.
 
@@ -29,7 +29,6 @@ Private repositories are not listed on this page. OCL shares their names and cat
 | [oclazure](https://github.com/OpenConceptLab/oclazure) | Terraform deployment of OCL on Azure | MPL 2.0 |
 | [oclci](https://github.com/OpenConceptLab/oclci) | CI and deployment scripts for OCL's hosted service | MPL 2.0 |
 
-**OCL Online Shared Services and OCL Online Commercial Services:** private, so not listed.
 
 ## Repositories outside the categories
 
