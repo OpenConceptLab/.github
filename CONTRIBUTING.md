@@ -58,10 +58,51 @@ We assign each issue to whoever did the work, so the credit is on record. If you
 We use scoped labels (`scope/name`) across all repos. The main ones you'll interact with:
 
 - **`type/`** — what kind of work (required on issues and PRs)
-- **`priority/`** — how urgent (`critical`, `high`, `medium`, `low`)
 - **`component/`** — which part of OCL (`api`, `web`, `fhir`, `mapper`, etc.)
 
 Other scopes (`signal/`, `stage/`, `origin/`) are managed by automated systems. Don't apply those manually.
+
+The older `priority/` labels stay on existing issues for now. Use the Priority field instead (see below).
+
+## Project boards
+
+Every OCL project board uses the same eight Status options, so a ticket's Status means the same thing on every board.
+
+| Status | Meaning |
+|---|---|
+| Requirements | Needs design or requirements before anyone can build it. |
+| Todo | Ready to start, not started yet. People pick up work from here. |
+| In Progress | Someone is working on it. |
+| In Review | Waiting on review, usually a pull request. |
+| UAT | Ready to try out in practice and give feedback. |
+| Finished | Done locally, not yet released to production. |
+| Done | Completed. The ticket closing sets it. |
+| On Hold | Blocked by another issue or an open question. |
+
+Move the Status when the work moves:
+
+- You start work: **In Progress**.
+- A PR is ready for review: **In Review**.
+- A PR merges and the ticket stays open: **In Progress** if work remains, **UAT** if only a deploy or a check is left.
+- You stop with no PR: back to **Todo**, or leave it **In Progress** with a comment saying who has it.
+- Never set **Done** by hand. On some boards it closes the ticket. Close the ticket with `closes` in the resolving commit and the board follows.
+
+Before you pick up a Todo ticket, check that nobody else is assigned and no PR is open for it. GitHub moves a ticket on its own only when a PR has a closing link or the ticket closes, so a PR that only mentions the ticket needs the Status moved by hand.
+
+New boards start from the organization's board template, which has these options.
+
+### Priority
+
+Priority has one home: the organization's **Priority** issue field, on the issue and on the boards. Every ticket on a board gets one.
+
+| Priority | Meaning |
+|---|---|
+| Urgent | Blocks production or other work. |
+| High | Needed by the current phase's date. |
+| Medium | Important, not urgent. |
+| Low | Nice to have. |
+
+Maintainers set Priority when they file or triage a ticket.
 
 ## Questions?
 
