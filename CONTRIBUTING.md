@@ -85,7 +85,7 @@ Move the Status yourself when the work moves. GitHub moves a ticket on its own o
 - A PR is ready for review: **In Review**, whether or not the PR has a closing link.
 - A PR merges and the ticket stays open: **In Progress** if work remains, **UAT** once it's deployed where people can try it, **Finished** if only the production release is left.
 - You stop with no PR: back to **Todo**, or leave it **In Progress** with a comment saying who has it.
-- Never set **Done** by hand. On some boards it closes the ticket. Close the ticket with `closes` in the resolving commit, and the board sets Done.
+- Never set **Done** by hand: on some boards it closes the ticket. Close the ticket instead, and the board sets Done. Use `closes` in the resolving commit, or, when a deploy or a check was the last step, close it by hand with a comment naming the commits that resolved it.
 
 A ticket can be on more than one board. Start from the issue: its Projects list shows every board it's on, and the Status needs moving on each.
 
@@ -97,7 +97,7 @@ New boards start from the organization's board template, which has these options
 
 ### Priority
 
-Priority has one home: the organization's **Priority** issue field, on the issue and on the boards. Every ticket on a board gets one.
+Priority lives in the organization's **Priority** issue field, on the issue and on the boards. Maintainers set it when they file or triage a ticket, so every ticket on a board has one.
 
 | Priority | Meaning |
 |---|---|
@@ -105,8 +105,6 @@ Priority has one home: the organization's **Priority** issue field, on the issue
 | High | Needed by the current phase's date. |
 | Medium | Important, not urgent. |
 | Low | Nice to have. |
-
-Maintainers set Priority when they file or triage a ticket.
 
 ## Questions?
 
